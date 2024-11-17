@@ -1,0 +1,48 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+.body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(59, 59, 190);
+}
+
+.container {
+    display: flex;
+    /* background-color: rgb(35, 56, 143); */
+    flex-direction: column;
+
+}
+
+.heading1 {
+    color: white;
+}
+
+.heading2 {
+    color: rgb(88, 136, 125);
+    border-bottom: solid black;
+}
+
+.password {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+button {
+    padding: 2px;
+}
+
+.create {
+    width: 150px;
+    /* margin: auto; */
+}
+
+input {
+    width: 150px;
+}
